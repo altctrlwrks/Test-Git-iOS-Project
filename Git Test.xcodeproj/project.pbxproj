@@ -14,6 +14,7 @@
 		67107F571A86641700EDB438 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67107F561A86641700EDB438 /* Images.xcassets */; };
 		67107F5A1A86641700EDB438 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67107F581A86641700EDB438 /* LaunchScreen.xib */; };
 		67107F661A86641800EDB438 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67107F651A86641800EDB438 /* Git_TestTests.m */; };
+		67107F711A86692200EDB438 /* HayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 67107F701A86692200EDB438 /* HayTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		67107F5F1A86641800EDB438 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67107F641A86641800EDB438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67107F651A86641800EDB438 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		67107F6F1A86692200EDB438 /* HayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HayTest.h; sourceTree = "<group>"; };
+		67107F701A86692200EDB438 /* HayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HayTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				67107F561A86641700EDB438 /* Images.xcassets */,
 				67107F581A86641700EDB438 /* LaunchScreen.xib */,
 				67107F491A86641700EDB438 /* Supporting Files */,
+				67107F6F1A86692200EDB438 /* HayTest.h */,
+				67107F701A86692200EDB438 /* HayTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				67107F521A86641700EDB438 /* ViewController.m in Sources */,
 				67107F4F1A86641700EDB438 /* AppDelegate.m in Sources */,
+				67107F711A86692200EDB438 /* HayTest.m in Sources */,
 				67107F4C1A86641700EDB438 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
